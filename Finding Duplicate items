@@ -1,0 +1,6 @@
+const arr = [1, 2, 1, 3, 4, 3, 5];
+
+const findDuplicate = (arr) => arr.filter((item, index) => arr.indexOf(item) !== index)
+
+const duplicateItm = findDuplicate(arr);
+console.log(duplicateItm);
